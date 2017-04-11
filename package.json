@@ -1,0 +1,38 @@
+{
+  "name": "busse_fi",
+  "version": "1.0.0",
+  "description": "![LLB Banner](https://llb.sis.uta.fi/portal/img/llb_bg2.png)",
+  "main": "live_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brgraul/Starting-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brgraul/Starting-App/issues"
+  },
+  "homepage": "https://github.com/Brgraul/Starting-App#readme",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "webpack": "^2.3.3",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-preset-stage-1": "^6.3.13",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
